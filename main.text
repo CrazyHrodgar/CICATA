@@ -1,0 +1,106 @@
+\documentclass[11pt]{article} %%% Si quieres cambiar el tamaño de la fuente cambia el 11 por el tamaño que desees
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{anysize}
+\usepackage{cite} % para contraer referencias
+\usepackage{fancyhdr} %para los encabezados con imagenes
+\usepackage[margin=1in,headsep=0.7in]{geometry}
+
+%%% Para agregar fuentes bibliograficas tienes que buscar el código .bib si viene disponible y añadir dichos codigos en el archivo
+%%% ref.bib
+%%% Si quieres añadir imágenes, debes subirlas a tu proyecto de Overleaf. Te recomiendo poner todas las imágenes en una subcarpeta y 
+%%% que el formato sea .png (con minúsculas)
+%%% Las imágenes puede que no se muestren si estás trabajando con el navegador Opera, con Chrome este problema no ocurre.
+
+\title{Informe de Comité Tutorial}
+\author{}
+\date{}
+\marginsize{2cm}{2cm}{2cm}{2cm} %margenes
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+
+
+\chead{{INSTITUTO POLITÉCNICO NACIONAL\\
+Centro de Investigación en Ciencia Aplicada\\
+y Tecnología Avanzada - Unidad Querétaro\\
+Informe de Comité Tutorial}}
+\rhead{\includegraphics{Imagenes/cicata_logo.png}}
+\lhead{\includegraphics[width=0.09\textwidth]{Imagenes/logoipn.png}}
+
+\begin{document}
+%\maketitle
+
+\section*{Datos generales}
+
+\begin{tabular}{|c|p{12cm}|}
+    \hline
+    Alumno & ALUMNO \\ \hline  % Ingresa tu nombre(s) y apellidos aqui
+    Registro IPN: & 123456 \\ \hline  % Ingresa tu número de boleta aqui
+    Programa: & Maestría o Doctorado \\ \hline  % Maestría o doctorado, depende el caso
+    Semestre en curso: & Semestre \\ \hline % Semestre en curso
+    Semestre a reportar: & 1$^o$ \\ \hline % Sólo cambia el número 1,2,3 dependiendo el caso
+    Lugar de realización: & Nombre de escuela\\ \hline  % El nombre de tu escuela o organización
+    Fecha: & dd/mm/aaaa \\ \hline % Fecha
+    Hora de realización: & 00:00 p.m\\ \hline % Ingresa la hora
+\end{tabular}
+
+
+\section*{Datos del proyecto}
+    \begin{tabular}{| c | p{12cm} | }
+    \hline
+        Titulo: &  \\ \hline  % El nombre de tu proyecto
+        Objetivo General: &  \\ \hline  % Tu objetivo
+        Resumen del proyecto: &  \\ \hline  % Breve resumen
+\end{tabular}
+
+\section*{Actividades realizadas durante el semestre en evaluación}
+
+\begin{enumerate} % Reporta todas las actividades del semestre, si quieres añadir mas solo ingresa el comando \item antes del end
+    \item 
+    \item 
+    \item 
+\end{enumerate}
+%Para este periodo se realizó una revisión a la literatura existente para obtener ideas del estado del arte, prototipos experimentales y características importantes para la evaluación de la fruta. Las fuentes consideradas más relevantes se muestran en \ref{resultados} a modo de un breve resumen.
+
+\section*{Actividades a realizar en el siguiente semestre}  % Igual que en la parte anterior
+\begin{itemize}
+    \item 
+    \item 
+    \item 
+    \item 
+\end{itemize}
+
+%\section*{Productos Derivados del proyecto} %Incluir cuando aplique
+
+\section*{Comentarios al comité, otras actividades adicionales}
+ Participación en los siguientes cursos:
+    \begin{itemize}
+        \item 
+        \item 
+        \item 
+    \end{itemize}
+    
+\section*{Resultados} % Añade tantas subsecciones como desees
+\label{resultados}
+\subsection*{}
+
+
+\subsection*{}
+    \begin{itemize}
+        \item 
+        \item 
+        \item 
+        \item 
+        \item 
+    \end{itemize}
+
+
+\subsection*{}
+
+\bibliographystyle{unsrt}
+\nocite{*}
+\bibliography{ref.bib}
+
+\end{document}
